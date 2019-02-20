@@ -10,7 +10,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
 /**
-  * @Auther: Administrator
+  * @Auther: zzh
   * @Date: 2019/2/19 14:33
   * @Description:
   */
@@ -36,6 +36,5 @@ object readHbase {
 			classOf[Result])
 		val l = hbaseRDD.count()
 		println(l)
-
 	}
 }
